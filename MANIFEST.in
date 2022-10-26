@@ -1,0 +1,14 @@
+recursive-include sklr *.cpp *.h *.pyx *.pxd
+recursive-include sklr/datasets *.csv
+
+include Makefile
+include MANIFEST.in
+include pyproject.toml
+include README.md
+
+recursive-exclude .github *
+recursive-exclude docker *
+
+exclude .gitignore
+exclude .mailmap
+exclude lgtm.yml
